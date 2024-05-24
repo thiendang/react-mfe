@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@react-mfe/design-system/components": [
+        "libs/design-system/components/src/index.ts"
+      ],
+      "@react-mfe/design-system/styles": [
+        "libs/design-system/styles/src/index.ts"
+      ],
+      "@react-mfe/tenable-io/common": ["libs/tenable-io/common/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
